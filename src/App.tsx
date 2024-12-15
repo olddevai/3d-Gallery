@@ -2,7 +2,7 @@ import React from 'react';
 import { Gallery } from 'lucide-react';
 import SearchBar from './components/SearchBar';
 import CategoryFilter from './components/CategoryFilter';
-import GalleryComponent from './components/Gallery';
+import Gallery from './components/Gallery';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
       </header>
 
       <main className="container mx-auto py-8">
-        <GalleryComponent />
+        <Gallery />
       </main>
     </div>
   );
