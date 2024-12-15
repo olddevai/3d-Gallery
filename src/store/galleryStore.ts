@@ -211,8 +211,13 @@ export const useGalleryStore = create<GalleryState>((set) => ({
     // Add more initial images as needed
   ],
   categories: [
-    { id: 'nature', name: 'Nature', count: 1 },
-    { id: 'architecture', name: 'Architecture', count: 1 },
+  { id: 'nature', name: 'Nature', count: 7 },
+  { id: 'architecture', name: 'Architecture', count: 4 },
+  { id: 'city', name: 'City', count: 4 },
+  { id: 'art', name: 'Art', count: 3 },
+  { id: 'technology', name: 'Technology', count: 2 },
+  { id: 'automotive', name: 'Automotive', count: 1 },
+  { id: 'travel', name: 'Travel', count: 1 }
   ],
   selectedCategory: null,
   searchQuery: '',
